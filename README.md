@@ -1,24 +1,50 @@
-# Python-project
+# 🐍 Python Project: Sales Transaction Analysis
 
-About the data:
-This is a sales transaction data set of UK-based e-commerce (online retail) for one year. This London-based shop has been selling gifts and homewares for adults and children through the website since 2007. Their customers come from all over the world and usually make direct purchases for themselves. There are also small businesses that buy in bulk and sell to other customers through retail outlet channels.
+## 📝 About the Data
 
-The data set contains 500K rows and 8 columns. The following is the description of each column.
+This dataset contains **sales transaction data** from a **UK-based e-commerce store** operating in London. The store has been selling gifts and homewares for adults and children online since 2007. Customers include individuals and small businesses worldwide.
 
-1) TransactionNo (categorical): a six-digit unique number that defines each transaction. (The letter “C” in the code indicates a cancellation).
+The dataset includes:
+- **500,000 rows**
+- **8 columns**
+- Covers **one full year** of transactions
 
-2) Date (numeric): the date when each transaction was generated.
+---
 
-3) ProductNo (categorical): a five or six-digit unique character used to identify a specific product.
+##  Column Descriptions
 
-4) Product (categorical): product/item name.
+1. **TransactionNo** *(Categorical)*:  
+   A six-digit unique ID for each transaction.  
+   > Note: Codes with the letter “C” represent cancellations.
 
-5) Price (numeric): the price of each product per unit in pound sterling (£).
+2. **Date** *(Numeric)*:  
+   The date on which the transaction occurred.
 
-6) Quantity (numeric): the quantity of each product per transaction. (Negative values indicate cancelled transactions).
+3. **ProductNo** *(Categorical)*:  
+   Unique identifier (5 or 6 digits) for each product.
 
-7) CustomerNo (categorical): a five-digit unique number that defines each customer.
+4. **Product** *(Categorical)*:  
+   Name or description of the product/item.
 
-8) Country (categorical): name of the country where the customer resides.
+5. **Price** *(Numeric)*:  
+   Unit price in pound sterling (£).
 
-There is a small percentage of order cancellation in the data set. Most of these cancellations were due to out-of-stock conditions on some products. Under this situation, customers tend to cancel an order as they want all products delivered all at once.
+6. **Quantity** *(Numeric)*:  
+   Number of units purchased per transaction.  
+   > Negative values indicate cancelled transactions.
+
+7. **CustomerNo** *(Categorical)*:  
+   A five-digit unique number identifying the customer.
+
+8. **Country** *(Categorical)*:  
+   Country where the customer resides.
+
+---
+
+##  Cancellations
+
+There is a **small percentage** of order cancellations in the dataset.  
+Most cancellations are due to **out-of-stock** items, where customers prefer to cancel entire orders if any part is unavailable.
+
+---
+
